@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Components</title>
+  </head>
+  <body>
+    <user-card
+      name="Daniela"
+      avatar="https://randomuser.me/api/portraits/women/2.jpg"
+    >
+      <div slot="email">dani@email.com</div>
+      <div slot="phone">+57 77777777</div>
+    </user-card>
+    <user-card
+      name="Patrizio"
+      avatar="https://randomuser.me/api/portraits/men/2.jpg"
+    >
+      <div slot="email">patri@email.com</div>
+      <div slot="phone">+57 888888888</div>
+    </user-card>
+    <script src="./UserCard.js"></script>
+  </body>
+</html>
